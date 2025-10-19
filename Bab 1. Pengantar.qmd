@@ -1,0 +1,28 @@
+---
+title: "Modul Analisis Data Epidemiologi dengan R"
+author: "Muhammad Ilham Basgoro"
+format: html
+editor: visual
+---
+
+# Bab 1. Pengantar
+
+## 1.1 Apa itu R?
+
+R adalah bahasa pemrograman yang banyak digunakan dalam bidang statistik, epidemiologi, dan ilmu kesehatan masyarakat. Beberapa kelebihan R untuk epidemiologi: - Gratis dan *open source* - Memiliki banyak paket (*packages*) untuk analisis epidemiologi (misalnya **epiR**, **epitools**) - Kuat dalam visualisasi (misalnya dengan **ggplot2**) - Terintegrasi dengan RStudio untuk memudahkan penulisan kode
+
+## 1.2 Apa itu RStudio?
+
+RStudio adalah *Integrated Development Environment* (IDE) untuk R. Kelebihan RStudio: - Tampilan lebih terorganisir - Mendukung RMarkdown untuk membuat laporan otomatis - Memudahkan manajemen proyek penelitian
+
+Tampilan utama RStudio terdiri dari: 1. **Source**: tempat menulis kode atau RMarkdown 2. **Console**: tempat eksekusi kode 3. **Environment/History**: menampilkan data yang digunakan 4. **Plots/Help/Packages/Viewer**: visualisasi, bantuan, dan manajemen paket
+
+## 1.3 Alur Belajar dalam Modul
+
+Dalam modul ini kita akan mempelajari: 1. Manajemen data epidemiologi (*import*, *cleaning*, *recoding*) 2. Analisis deskriptif (frekuensi, rata-rata, proporsi) 3. Analisis epidemiologi dasar (prevalens, insidens, OR, RR) 4. Analisis lanjutan (regresi logistik, regresi Poisson, *survival analysis*) 5. Visualisasi data (grafik tren, peta sebaran kasus)
+
+## 1.4 Tujuan Pembelajaran
+
+Setelah mempelajari Bab 1, peserta diharapkan mampu: 1. Menjelaskan apa itu R dan mengapa penting dalam epidemiologi dan kesehatan masyarakat. 2. Mengenali fungsi utama RStudio serta bagian-bagian panel utamanya. 3. Memahami konsep dasar RMarkdown sebagai alat untuk membuat laporan analisis yang *reproducible*. 4. Mengetahui alur pembelajaran yang akan dipelajari dalam modul ini.
+
+👩‍💻 **Latihan 1** Sebuah vektor `a` berisi angka `10, 20, 30` akan disimpan ke dalam variabel. Contoh potongan kode (*code chunk*):
